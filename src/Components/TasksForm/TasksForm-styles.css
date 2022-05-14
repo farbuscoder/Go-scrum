@@ -1,0 +1,108 @@
+.tasks-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.tasks-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  padding: 0.9rem;
+  padding-bottom: 1.2rem;
+  /*box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 0.2px solid rgba(128, 128, 128, 0.407);*/
+  border-radius: 0.5rem;
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.tasks-form form label {
+  display: block;
+  margin: 0.0125rem;
+}
+
+.tasks-form form div {
+  width: 95%;
+  margin: 0.4rem;
+}
+
+.tasks-form form div input {
+  width: 100%;
+  border-radius: var(--global-radius);
+  padding: 0.5rem;
+  border: var(--global-border);
+}
+
+.tasks-form form button {
+  padding: 12.8px;
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
+  border: 0;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--global-primary-color);
+  border-radius: var(--global-radius);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tasks-form form button:hover {
+  background-color: transparent;
+  border: 1px solid var(--global-primary-color);
+  color: var(--global-primary-color);
+}
+
+.tasks-form form button:active {
+  transform: scale(0.99);
+}
+
+.error {
+  color: rgba(197, 16, 16, 0.95);
+  font-size: 12px;
+}
+
+.tasks-form form div .input-select {
+  width: 100%;
+  padding: 0.5jrem;
+  border: var(--global-border);
+  border-radius: var(--global-radius);
+}
+
+.tasks-form form div .input-textArea {
+  width: 100%;
+  padding: 0.5rem;
+  border: var(--global-border);
+  border-radius: var(--global-radius);
+  font-family: "Nunito", sans-serif;
+}
+
+.tasks-form form div .error-border {
+  border: 1px solid rgba(245, 50, 50, 0.817);
+}
+
+@media (min-width: 30rem) {
+  .tasks-form {
+    width: 100%;
+  }
+}
+
+@media (min-width: 60rem) {
+  .tasks-form {
+    width: 30%;
+  }
+}
+
+@media (min-width: 90rem) {
+  .tasks-form {
+    width: 40%;
+  }
+}

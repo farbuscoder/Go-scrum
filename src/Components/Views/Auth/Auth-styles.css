@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.auth {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--global-bg-color-soft);
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 0.9rem;
+  padding-bottom: 1.2rem;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 0.2px solid rgba(128, 128, 128, 0.407);
+  border-radius: 0.5rem;
+  background-color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.auth form label {
+  display: block;
+  margin: 0.0125rem;
+}
+
+.auth form div {
+  width: 95%;
+  margin: 0.4rem;
+}
+
+.auth form div input {
+  width: 100%;
+  border-radius: var(--global-radius);
+  padding: 0.5rem;
+  border: var(--global-border);
+}
+
+.auth form button {
+  padding: 12.8px;
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0;
+  border: 0;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--global-primary-color);
+  border-radius: var(--global-radius);
+  color: white;
+  font-size: 18px;
+}
+
+.auth form button:hover {
+  background-color: transparent;
+  border: 1px solid var(--global-primary-color);
+  color: var(--global-primary-color);
+}
+
+.auth form button:active {
+  transform: scale(0.99);
+}
+
+.error {
+  color: rgba(197, 16, 16, 0.95);
+  font-size: 12px;
+}
+
+.input-select {
+  width: 100%;
+}
+.auth form .link-to {
+  text-align: center;
+  padding-top: 0.8rem;
+}
+
+.auth form div a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(94, 94, 94);
+}
+
+.auth form div .error-border {
+  border: 1px solid rgba(245, 50, 50, 0.817);
+}
+
+.react-switch {
+  vertical-align: middle;
+}
+
+.react-switch-bg {
+  width: 20% !important;
+  padding: 0 !important;
+  position: relative !important;
+  border-radius: 12.5px !important;
+}
+
+.react-switch-bg div {
+  position: absolute;
+  top: -2px !important;
+  display: none;
+}
+
+.react-switch-handle {
+  position: absolute !important;
+  left: -3px !important;
+  top: -5px !important;
+  height: 1.6rem !important;
+  width: 1.6rem !important;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 20rem) {
+  .auth form {
+    width: 95%;
+  }
+}
+
+@media (min-width: 30rem) {
+  .auth form {
+    width: 50%;
+  }
+}
+
+@media (min-width: 60rem) {
+  .auth form {
+    width: 30%;
+  }
+}
+
+@media (min-width: 90rem) {
+  .auth form {
+    width: 20%;
+  }
+}

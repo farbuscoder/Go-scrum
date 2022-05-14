@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px #dbdbdb;
+  position: relative;
+}
+
+header img {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.9rem;
+}
+
+header .logout {
+  padding: 0.9rem;
+  cursor: pointer;
+}
+
+header .logout:hover {
+  color: rgb(233, 31, 31);
+}
+
+.wrapper_right_header {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 1.8rem;
+}
+
+.wrapper_right_header div:first-child {
+  padding-right: 0.625rem;
+}
+
+.numero-tareas {
+  margin-right: 1rem;
+}
