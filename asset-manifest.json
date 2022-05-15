@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/go-scrum/static/css/main.10ac1367.css",
-    "main.js": "/go-scrum/static/js/main.ab84856f.js",
-    "static/js/641.5bb61ce8.chunk.js": "/go-scrum/static/js/641.5bb61ce8.chunk.js",
-    "index.html": "/go-scrum/index.html",
-    "main.10ac1367.css.map": "/go-scrum/static/css/main.10ac1367.css.map",
-    "main.ab84856f.js.map": "/go-scrum/static/js/main.ab84856f.js.map",
-    "641.5bb61ce8.chunk.js.map": "/go-scrum/static/js/641.5bb61ce8.chunk.js.map"
+    "main.css": "/Go-scrum/static/css/main.10ac1367.css",
+    "main.js": "/Go-scrum/static/js/main.586fc9dd.js",
+    "static/js/641.5bb61ce8.chunk.js": "/Go-scrum/static/js/641.5bb61ce8.chunk.js",
+    "index.html": "/Go-scrum/index.html",
+    "main.10ac1367.css.map": "/Go-scrum/static/css/main.10ac1367.css.map",
+    "main.586fc9dd.js.map": "/Go-scrum/static/js/main.586fc9dd.js.map",
+    "641.5bb61ce8.chunk.js.map": "/Go-scrum/static/js/641.5bb61ce8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10ac1367.css",
-    "static/js/main.ab84856f.js"
+    "static/js/main.586fc9dd.js"
   ]
 }
