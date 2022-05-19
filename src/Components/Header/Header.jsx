@@ -19,7 +19,9 @@ export const Header = () => {
   return (
     <>
       <header>
-        <img src={logo} alt="go-scrum" />
+        <h1 className="title">
+          <span style={{ color: "orange" }}>Go</span>Scrum
+        </h1>
 
         <div className="wrapper_right_header">
           {/*<span>
@@ -27,21 +29,23 @@ export const Header = () => {
             : {process.env.REACT_APP_PORT}
   </span>*/}
           <div>
-            <button onClick={() => navigate("/donate", { replace: true })}>
+            <button
+              className="donate"
+              onClick={() => navigate("/donate", { replace: true })}
+            >
               Donate
             </button>
           </div>
-          <div className="numero-tareas">Tareas creadas: {tasks?.length} </div>
           <div>{localStorage.getItem("userName")}</div>
-        </div>
-        <div
-          className="logout"
-          onClick={() => {
-            handleLogout();
-            navigate("/", { replace: true });
-          }}
-        >
-          x
+          <div
+            className="logout"
+            onClick={() => {
+              handleLogout();
+              navigate("/", { replace: true });
+            }}
+          >
+            x
+          </div>
         </div>
       </header>
     </>

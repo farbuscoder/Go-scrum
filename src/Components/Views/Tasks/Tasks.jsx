@@ -236,7 +236,10 @@ export const Tasks = () => {
           <section className="wrapper_list">
             <div className="list_header">
               <div>
-                <h2>Mis tareas</h2>
+                <h2>Tareas</h2>
+                <div className="numero-tareas">
+                  Total de tareas creadas: {tasks?.length}{" "}
+                </div>
               </div>
               <div className="filters">
                 <FormControl>

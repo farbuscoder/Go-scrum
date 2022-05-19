@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&display=swap");
+
 header {
   display: flex;
   align-items: center;
@@ -26,6 +28,9 @@ header .logout:hover {
   flex-direction: row;
   position: absolute;
   right: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .wrapper_right_header div:first-child {
@@ -34,4 +39,32 @@ header .logout:hover {
 
 .numero-tareas {
   margin-right: 1rem;
+  display: visible;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.9375rem;
+}
+
+.title {
+  padding-left: 0.9375rem;
+  font-size: 25px;
+  font-family: "Readex Pro", sans-serif;
+  font-weight: bold;
+}
+
+.donate {
+  padding: 10px;
+  border: none;
+  background-color: orangered;
+  color: aliceblue;
+  border-radius: 0.5rem;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.donate:hover {
+  border: 1.2px solid orangered;
+  background-color: transparent;
+  color: orangered;
 }
