@@ -164,8 +164,6 @@ export const Tasks = () => {
     }
   }, [searchTerm]);
 
-  //console.log(list);
-
   const handleReSize = () => {
     if (window.innerWidth < 900) {
       setisPhone(true);

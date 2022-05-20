@@ -66,8 +66,6 @@ export const Login = () => {
             };
 
             toLogin(user);
-
-            console.log(user);
           }}
         >
           {({ errors }) => (
